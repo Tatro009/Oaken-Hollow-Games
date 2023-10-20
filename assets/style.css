@@ -20,6 +20,11 @@ header h1 {
     font-size: 2rem;
 }
 
+header h1 img {
+    max-width: 100%;
+    height: auto;
+}
+
 nav {
     background-color: black;
     display: flex;
@@ -40,9 +45,7 @@ nav button#menu-toggle {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: center; 
 }
 
 nav ul li {
