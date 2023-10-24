@@ -97,8 +97,9 @@ section h2 {
 .game {
     margin: 2rem 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .game img {
@@ -109,11 +110,12 @@ section h2 {
 
 .gameName {
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .game p {
-    color: sienna;
+    color: black;
+    padding: 15px;
 }
 
 footer {
