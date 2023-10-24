@@ -28,7 +28,7 @@ header h1 img {
 nav {
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
 }
