@@ -87,6 +87,8 @@ section {
     margin: 2rem 0;
     padding: 2rem;
     background-color: rgb(226, 160, 36);
+    border: solid 2px;
+    border-radius: 5px;
 }
 
 section h2 {
@@ -100,6 +102,7 @@ section h2 {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    
 }
 
 .game img {
